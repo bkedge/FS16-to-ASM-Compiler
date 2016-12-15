@@ -1,0 +1,32 @@
+Begin
+  Var a :: b :: c
+  Scan: a .
+  Scan: b .
+
+  [ a > 0] Iff
+    Begin
+      [ a > b] Iff
+        Begin
+          Print [ a ] .
+        End
+    End
+
+  [a = b] Iff
+    Begin
+      Print [ 2 ] .
+    End
+
+  [a =!= b] Iff
+    Begin
+      Loop[c < 5]
+      Begin
+        Print [c] .
+        c == c + 1 .
+      End
+    End
+
+    Print [ 1 - 2] .
+    Print [4 / 2] .
+    Print [5 * 2] .
+
+End

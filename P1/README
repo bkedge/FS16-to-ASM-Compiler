@@ -1,0 +1,6 @@
+//Brady Kedge
+//CS4280 - P1
+
+I implemented the FSA table and it is located in scanner.cpp
+
+The project uses enumeed tokens and lookup function to map tokens to characters and so on.

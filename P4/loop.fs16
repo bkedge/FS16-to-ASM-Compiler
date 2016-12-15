@@ -1,0 +1,8 @@
+Begin
+  Var a
+  Scan : a .
+  [ a > 2] Iff
+    Begin
+      Print [ a ] .
+    End
+End

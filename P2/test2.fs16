@@ -1,0 +1,11 @@
+Var x :: y
+Begin
+  Scan : x .
+
+
+
+
+  y == x .
+  Print [ y - x] .
+
+End

@@ -1,0 +1,30 @@
+Var x :: y :: m
+
+Begin
+
+  Var q :: n
+  Begin
+    Var g :: h :: z :: x :: m
+    Print [ g ] .
+    Print [ z ] .
+
+    Begin
+      Var g :: z :: x :: y
+      Print [ g ] .
+      Print [ z ] .
+      Print [ x ] .
+      Print [ y ] .
+    End
+  End
+
+  Begin
+    Var g :: h :: t
+    Print [ x ] .
+    Print [ t ] .
+    Print [ m ] .
+
+    q == 1 + 2 .
+    Scan : g .
+  End
+
+End
