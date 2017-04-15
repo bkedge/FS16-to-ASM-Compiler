@@ -22,12 +22,12 @@ Compiler for FS16 to ASM
 <assign>       ->      Identifier == <expr> .
 <RO>            ->      >=> | <=< | = |  > | <  |  =!=   
 ```
-#Details
+# Details
 Scanner is implemented using FSA table. Parser builds a top down tree which is then recursively traversed by semantic.cpp and generates scope
 and code generation.
 
-#Invocation
+# Invocation
 comp [file]
 
-#Errors
+# Errors
 Errors will be caught when there is an invalid character, a syntax error or a scoping error.
