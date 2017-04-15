@@ -1,7 +1,7 @@
 # FS16-to-ASM-Compiler
 Compiler for FS16 to ASM
 
-#Language
+# Language
 ```
 <program>  ->     <vars> <block>
 <block>       ->      Begin <vars> <stats> End
